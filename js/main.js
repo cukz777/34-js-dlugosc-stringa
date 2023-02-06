@@ -12,11 +12,10 @@ let s2 = "Jestem świetnym programistą";
 
 function ls(s1, s2) {
     if (s1.length > s2.length) {
-        console.log('Uwielbiam JavaScript');
+        console.log(s1);
     }
     else {
-        (s1.length < s2.length)
-        console.log('Jestem świetnym programistą');
+        console.log(s2);
     }
 
 }
